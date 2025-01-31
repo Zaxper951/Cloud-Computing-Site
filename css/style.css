@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
    /*fonts*/
 html{
     font-size: 62.5%;                   /* 62.5% of 16 px = 10px */
@@ -568,7 +573,9 @@ a{
 .block{
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
-    border: 2px solid red;
+}
+
+.block__header{
     text-align: center;
 }
 
@@ -594,3 +601,4 @@ a{
     padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
 }
+
